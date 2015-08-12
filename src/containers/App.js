@@ -37,7 +37,7 @@ const immutableCreateSelector = createSelectorCreator(Immutable.is);
 
 const selectors = immutableCreateSelector(
     [state => state],
-        value => value
+    value => value
 );
 
 // Wrap the component to inject dispatch and state into it
